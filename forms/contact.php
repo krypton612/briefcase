@@ -24,12 +24,13 @@
   $contact->subject = $_POST['subject'];
   
   
-  // $contact->smtp = array(
-  //   'host' => 'smtp.office365.com',
-  //   'username' => ',
-  //   'password' => '',
-  //   'port' => ' 587'
-  // );
+  $contact->smtp = array(
+    'host' => 'smtp.gmail.com',
+    'username' => 'fmarcus769@gmail.com',
+    'password' => 'riilynpivuaofzxh',
+    'port' => '465'
+
+  );
   
 
   $contact->add_message( $_POST['name'], 'From');
